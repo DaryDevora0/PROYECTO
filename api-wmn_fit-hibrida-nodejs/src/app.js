@@ -4,8 +4,6 @@ const app = express();
 
 const usuarioRoutes = require('./routes/usuario.routes'); 
 
-const membresiaRoutes = require('./routes/membresia.routes');
-
 
 
 // Middlewares primero
@@ -14,9 +12,7 @@ app.use(express.json());
 
 
 
-// Rutas
 
-app.use('/membresia', membresiaRoutes);
 app.use('/usuario', usuarioRoutes); 
 
 

@@ -1,6 +1,6 @@
 
 const { mysqlPool } = require('../config/mysql');
-
+//
 class Usuario{
     //obtener todos los usuarios
     static async obtenerUsuarios(){
